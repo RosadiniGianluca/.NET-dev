@@ -38,6 +38,11 @@ public class ReservationController : ControllerBase
     [HttpPost]
     public async Task<ActionResult<Reservation>> CreateReservation(Reservation reservation)
     {
+        if (!ModelState.IsValid)
+        {
+            return BadRequest(ModelState);
+        }
+
         _context.Reservations.Add(reservation);
         await _context.SaveChangesAsync();
         return CreatedAtAction(nameof(GetReservations), new { id = reservation.Id }, new
