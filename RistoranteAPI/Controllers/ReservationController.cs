@@ -48,6 +48,13 @@ public class ReservationController : ControllerBase
             return BadRequest(new { Errors = errors });
         }
 
+        // Check if slot is available
+        var isSlotAvailable = await _validationService.IsSlotAvailable(_context, reservation.ReservationDate);
+        if (!isSlotAvailable)
+        {
+            return Conflict(new { Error = "Maximum reservations reached for this time slot." });
+        }
+
         // Check for duplicate reservation
         var existingReservation = await _context.Reservations
             .FirstOrDefaultAsync(r => r.Email == reservation.Email && r.ReservationDate == reservation.ReservationDate);
