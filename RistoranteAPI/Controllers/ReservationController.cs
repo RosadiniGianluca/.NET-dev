@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using RistoranteAPI.Data;
 using RistoranteAPI.Models;
+using RistoranteAPI.Services;
 
 namespace RistoranteAPI.Controllers;
 
@@ -10,10 +11,12 @@ namespace RistoranteAPI.Controllers;
 public class ReservationController : ControllerBase
 {
     private readonly AppDbContext _context;
+    private readonly ValidationService _validationService;
 
-    public ReservationController(AppDbContext context)
+    public ReservationController(AppDbContext context, ValidationService validationService)
     {
         _context = context;
+        _validationService = validationService;
     }
 
     [HttpGet]
@@ -38,9 +41,20 @@ public class ReservationController : ControllerBase
     [HttpPost]
     public async Task<ActionResult<Reservation>> CreateReservation(Reservation reservation)
     {
-        if (!ModelState.IsValid)
+        var errors = _validationService.ValidateReservation(reservation);
+
+        if (errors.Any())
         {
-            return BadRequest(ModelState);
+            return BadRequest(new { Errors = errors });
+        }
+
+        // Check for duplicate reservation
+        var existingReservation = await _context.Reservations
+            .FirstOrDefaultAsync(r => r.Email == reservation.Email && r.ReservationDate == reservation.ReservationDate);
+
+        if (existingReservation != null)
+        {
+            return Conflict(new { Error = "A reservation already exists with this email and date." });
         }
 
         _context.Reservations.Add(reservation);

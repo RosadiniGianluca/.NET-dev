@@ -22,4 +22,6 @@ public class Reservation
     [Required(ErrorMessage = "Reservation date is required")]
     [DataType(DataType.DateTime)]
     public DateTime ReservationDate { get; set; }
+
+    public string? Notes { get; set; }
 }

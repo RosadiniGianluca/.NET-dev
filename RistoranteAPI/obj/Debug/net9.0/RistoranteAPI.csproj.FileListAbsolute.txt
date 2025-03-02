@@ -1,3 +1,11 @@
+/Users/gianlucarosadini/Documents/C#/RistoranteAPI/obj/Debug/net9.0/RistoranteAPI.csproj.AssemblyReference.cache
+/Users/gianlucarosadini/Documents/C#/RistoranteAPI/obj/Debug/net9.0/RistoranteAPI.GeneratedMSBuildEditorConfig.editorconfig
+/Users/gianlucarosadini/Documents/C#/RistoranteAPI/obj/Debug/net9.0/RistoranteAPI.AssemblyInfoInputs.cache
+/Users/gianlucarosadini/Documents/C#/RistoranteAPI/obj/Debug/net9.0/RistoranteAPI.AssemblyInfo.cs
+/Users/gianlucarosadini/Documents/C#/RistoranteAPI/obj/Debug/net9.0/RistoranteAPI.csproj.CoreCompileInputs.cache
+/Users/gianlucarosadini/Documents/C#/RistoranteAPI/obj/Debug/net9.0/RistoranteAPI.MvcApplicationPartsAssemblyInfo.cs
+/Users/gianlucarosadini/Documents/C#/RistoranteAPI/obj/Debug/net9.0/RistoranteAPI.MvcApplicationPartsAssemblyInfo.cache
+/Users/gianlucarosadini/Documents/C#/RistoranteAPI/obj/Debug/net9.0/RistoranteAPI.sourcelink.json
 /Users/gianlucarosadini/Documents/C#/RistoranteAPI/bin/Debug/net9.0/appsettings.Development.json
 /Users/gianlucarosadini/Documents/C#/RistoranteAPI/bin/Debug/net9.0/appsettings.json
 /Users/gianlucarosadini/Documents/C#/RistoranteAPI/bin/Debug/net9.0/RistoranteAPI.staticwebassets.endpoints.json
@@ -130,14 +138,6 @@
 /Users/gianlucarosadini/Documents/C#/RistoranteAPI/bin/Debug/net9.0/runtimes/win-arm64/native/e_sqlite3.dll
 /Users/gianlucarosadini/Documents/C#/RistoranteAPI/bin/Debug/net9.0/runtimes/win-x64/native/e_sqlite3.dll
 /Users/gianlucarosadini/Documents/C#/RistoranteAPI/bin/Debug/net9.0/runtimes/win-x86/native/e_sqlite3.dll
-/Users/gianlucarosadini/Documents/C#/RistoranteAPI/obj/Debug/net9.0/RistoranteAPI.csproj.AssemblyReference.cache
-/Users/gianlucarosadini/Documents/C#/RistoranteAPI/obj/Debug/net9.0/RistoranteAPI.GeneratedMSBuildEditorConfig.editorconfig
-/Users/gianlucarosadini/Documents/C#/RistoranteAPI/obj/Debug/net9.0/RistoranteAPI.AssemblyInfoInputs.cache
-/Users/gianlucarosadini/Documents/C#/RistoranteAPI/obj/Debug/net9.0/RistoranteAPI.AssemblyInfo.cs
-/Users/gianlucarosadini/Documents/C#/RistoranteAPI/obj/Debug/net9.0/RistoranteAPI.csproj.CoreCompileInputs.cache
-/Users/gianlucarosadini/Documents/C#/RistoranteAPI/obj/Debug/net9.0/RistoranteAPI.MvcApplicationPartsAssemblyInfo.cs
-/Users/gianlucarosadini/Documents/C#/RistoranteAPI/obj/Debug/net9.0/RistoranteAPI.MvcApplicationPartsAssemblyInfo.cache
-/Users/gianlucarosadini/Documents/C#/RistoranteAPI/obj/Debug/net9.0/RistoranteAPI.sourcelink.json
 /Users/gianlucarosadini/Documents/C#/RistoranteAPI/obj/Debug/net9.0/scopedcss/bundle/RistoranteAPI.styles.css
 /Users/gianlucarosadini/Documents/C#/RistoranteAPI/obj/Debug/net9.0/staticwebassets.build.json
 /Users/gianlucarosadini/Documents/C#/RistoranteAPI/obj/Debug/net9.0/staticwebassets.development.json
