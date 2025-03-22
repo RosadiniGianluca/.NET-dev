@@ -154,3 +154,9 @@
 /Users/gianlucarosadini/Documents/C#/RistoranteAPI/obj/Debug/net9.0/RistoranteAPI.pdb
 /Users/gianlucarosadini/Documents/C#/RistoranteAPI/obj/Debug/net9.0/RistoranteAPI.genruntimeconfig.cache
 /Users/gianlucarosadini/Documents/C#/RistoranteAPI/obj/Debug/net9.0/ref/RistoranteAPI.dll
+/Users/gianlucarosadini/Documents/C#/RistoranteAPI/bin/Debug/net9.0/Newtonsoft.Json.dll
+/Users/gianlucarosadini/Documents/C#/RistoranteAPI/bin/Debug/net9.0/SendGrid.dll
+/Users/gianlucarosadini/Documents/C#/RistoranteAPI/bin/Debug/net9.0/StarkbankEcdsa.dll
+/Users/gianlucarosadini/Documents/C#/RistoranteAPI/bin/Debug/net9.0/BouncyCastle.Cryptography.dll
+/Users/gianlucarosadini/Documents/C#/RistoranteAPI/bin/Debug/net9.0/MailKit.dll
+/Users/gianlucarosadini/Documents/C#/RistoranteAPI/bin/Debug/net9.0/MimeKit.dll

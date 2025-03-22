@@ -11,6 +11,8 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 builder.Services.AddScoped<ValidationService>();
 builder.Services.Configure<ReservationSettings>(
     builder.Configuration.GetSection("ReservationSettings"));
+builder.Services.Configure<EmailSettings>(builder.Configuration.GetSection("EmailSettings"));
+builder.Services.AddScoped<EmailService>();
 
 var app = builder.Build();
 

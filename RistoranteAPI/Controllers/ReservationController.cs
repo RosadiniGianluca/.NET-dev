@@ -12,11 +12,13 @@ public class ReservationController : ControllerBase
 {
     private readonly AppDbContext _context;
     private readonly ValidationService _validationService;
+    private readonly EmailService _emailService;
 
-    public ReservationController(AppDbContext context, ValidationService validationService)
+    public ReservationController(AppDbContext context, ValidationService validationService, EmailService emailService)
     {
         _context = context;
         _validationService = validationService;
+        _emailService = emailService;
     }
 
     [HttpGet]
@@ -65,6 +67,11 @@ public class ReservationController : ControllerBase
         }
 
         _context.Reservations.Add(reservation);
+
+        var emailBody = $"<h1>Reservation Confirmed!</h1><p>Dear {reservation.CustomerName}, your reservation on {reservation.ReservationDate} has been confirmed!</p>";
+
+        await _emailService.SendEmailAsync(reservation.Email, "Reservation Confirmation", emailBody);
+
         await _context.SaveChangesAsync();
         return CreatedAtAction(nameof(GetReservations), new { id = reservation.Id }, new
         {
