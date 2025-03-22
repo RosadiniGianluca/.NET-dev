@@ -22,7 +22,7 @@ public class ReservationController : ControllerBase
         _emailService = emailService;
     }
 
-    [Authorize]
+    [Authorize] // Authorization via Jwt token required to use this method
     [HttpGet]
     public async Task<ActionResult<IEnumerable<Reservation>>> GetReservations()
     {
