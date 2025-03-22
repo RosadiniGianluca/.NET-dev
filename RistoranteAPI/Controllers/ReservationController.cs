@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using RistoranteAPI.Data;
 using RistoranteAPI.Models;
 using RistoranteAPI.Services;
+using Microsoft.AspNetCore.Authorization;
 
 namespace RistoranteAPI.Controllers;
 
@@ -21,6 +22,7 @@ public class ReservationController : ControllerBase
         _emailService = emailService;
     }
 
+    [Authorize]
     [HttpGet]
     public async Task<ActionResult<IEnumerable<Reservation>>> GetReservations()
     {

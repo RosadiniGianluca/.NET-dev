@@ -160,3 +160,14 @@
 /Users/gianlucarosadini/Documents/C#/RistoranteAPI/bin/Debug/net9.0/BouncyCastle.Cryptography.dll
 /Users/gianlucarosadini/Documents/C#/RistoranteAPI/bin/Debug/net9.0/MailKit.dll
 /Users/gianlucarosadini/Documents/C#/RistoranteAPI/bin/Debug/net9.0/MimeKit.dll
+/Users/gianlucarosadini/Documents/C#/RistoranteAPI/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/gianlucarosadini/Documents/C#/RistoranteAPI/bin/Debug/net9.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/gianlucarosadini/Documents/C#/RistoranteAPI/bin/Debug/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/gianlucarosadini/Documents/C#/RistoranteAPI/bin/Debug/net9.0/Microsoft.IdentityModel.Logging.dll
+/Users/gianlucarosadini/Documents/C#/RistoranteAPI/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.dll
+/Users/gianlucarosadini/Documents/C#/RistoranteAPI/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/gianlucarosadini/Documents/C#/RistoranteAPI/bin/Debug/net9.0/Microsoft.IdentityModel.Tokens.dll
+/Users/gianlucarosadini/Documents/C#/RistoranteAPI/bin/Debug/net9.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/gianlucarosadini/Documents/C#/RistoranteAPI/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/gianlucarosadini/Documents/C#/RistoranteAPI/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/gianlucarosadini/Documents/C#/RistoranteAPI/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll
